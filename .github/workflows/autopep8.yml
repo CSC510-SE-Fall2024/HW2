@@ -33,4 +33,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run autopep8 on python files
       run: |
-        autopep8 --in-place --aggressive --aggressive --verbose hw2/*.py
+        autopep8 --in-place --aggressive --aggressive --verbose ./*.py
