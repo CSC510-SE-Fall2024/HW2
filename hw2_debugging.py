@@ -5,7 +5,16 @@ import rand
 
 
 def mergeSort(arr):
-    if (len(arr) == 1 or len(arr) == 0):
+    """
+    Perform a merge sort on the input array.
+
+    Args:
+        arr (list): The list of elements to be sorted.
+
+    Returns:
+        list: The sorted list of elements.
+    """
+    if len(arr) <= 1:
         return arr
 
     half = len(arr) // 2
@@ -14,6 +23,16 @@ def mergeSort(arr):
 
 
 def recombine(leftArr, rightArr):
+    """
+    Merge two sorted lists into one sorted list.
+
+    Args:
+        leftArr (list): The first sorted list.
+        rightArr (list): The second sorted list.
+
+    Returns:
+        list: The merged and sorted list.
+    """
     leftIndex = 0
     rightIndex = 0
     mergeArr = [None] * (len(leftArr) + len(rightArr))
