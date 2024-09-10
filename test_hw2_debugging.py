@@ -3,8 +3,6 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 import hw2_debugging
 
-import hw2_debugging
-
 def test_empty_array():
     assert hw2_debugging.mergeSort([]) == []
 
