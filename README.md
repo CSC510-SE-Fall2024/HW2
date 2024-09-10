@@ -1,6 +1,7 @@
 ![python badge](https://img.shields.io/badge/language-python-blue)
 ![license badge](https://img.shields.io/badge/license-GPL--2.0--license-red)
 ![platform badge](https://img.shields.io/badge/platform-linux-ffa500)
+[![Testing Suite](https://img.shields.io/github/workflow/status/CSC510-SE-Fall2024/HW2/main?label=Testing%20Suite)](https://github.com/CSC510-SE-Fall2024/HW2/actions/workflows/main.yml)
 [![Testing Suite](https://github.com/CSC510-SE-Fall2024/HW2/actions/workflows/main.yml/badge.svg)](https://github.com/CSC510-SE-Fall2024/HW2/actions/workflows/main.yml)
 [![Radon](https://github.com/CSC510-SE-Fall2024/HW2/actions/workflows/radon.yml/badge.svg)](https://github.com/CSC510-SE-Fall2024/HW2/actions/workflows/radon.yml)
 [![Pylint](https://github.com/CSC510-SE-Fall2024/HW2/actions/workflows/pylint.yml/badge.svg)](https://github.com/CSC510-SE-Fall2024/HW2/actions/workflows/pylint.yml)
