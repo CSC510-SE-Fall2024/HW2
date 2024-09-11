@@ -1,0 +1,10 @@
+************* Module HW2.hw2_debugging
+hw2_debugging.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
+hw2_debugging.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+hw2_debugging.py:5:0: E0401: Unable to import 'rand' (import-error)
+hw2_debugging.py:5:0: C0413: Import "import rand" should be placed at the top of the module (wrong-import-position)
+hw2_debugging.py:8:15: W0621: Redefining name 'arr' from outer scope (line 61) (redefined-outer-name)
+
+-----------------------------------
+Your code has been rated at 7.00/10
+
