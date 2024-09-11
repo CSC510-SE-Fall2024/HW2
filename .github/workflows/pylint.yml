@@ -31,7 +31,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run pylint on python files
+    - name: Run pylint on python files and save trace in post_traces folder
       run: |
-        pylint .
+        pylint ./*.py > post_traces/pylint_trace.txt
         

@@ -31,9 +31,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install radon
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run radon on all files
+    - name: Run radon on all files and save trace in post_traces folder
       run: |
-        radon cc ./*.py -na 
+        radon cc ./*.py -s > post_traces/radon_trace.txt 
         
         
         
