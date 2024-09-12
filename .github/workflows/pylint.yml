@@ -33,5 +33,5 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run pylint on python files and save trace in post_traces folder
       run: |
-        pylint ./*.py > post_traces/pylint_trace.txt
+        pylint $(find . -name "*.py") > post_traces/pylint_trace.txt
         
